@@ -1,0 +1,15 @@
+DOCKER  : 
+Docker Engine simule, émule un OS, s'en fout du hardware.
+
+https://github.com/H3Hitema/BDD_python
+
+-Tp : Instancier une base de données existante dans un conteneur et interagir avec elle en python
+	STEPS :
+	    - Pull MySQL container:
+            -> docker pull mysql:latest
+		- build/Run images && dockerfile :
+		    -> docker build -t container_name .
+		- launch container with command :
+		      -> docker run container_name
+		- set up app.python
+		- queries in container : docker exec -it container_name, show databases, create Database, write queries ...
