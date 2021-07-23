@@ -29,7 +29,7 @@ else:
         print('Connexion échouée :(')
 
 
-# Get (or pull) MetaDatas
+# Get (or pull ?) MetaDatas
 datas = MetaData(bind=engine)
 datas.reflect(only=['customers','employees','offices', 'orderdetails','orders','payments','productlines','products'])
 
