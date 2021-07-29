@@ -1,7 +1,21 @@
-DOCKER  : 
-Docker Engine simule, émule un OS, s'en fout du hardware.
+DOCKER  : https://github.com/H3Hitema/BDD_python
 
-https://github.com/H3Hitema/BDD_python
+Docker Engine simule, émule un OS, s'en fout du hardware, ressources
+système.
+
+
+Swarm & Kubernetes :
+    -> outils d'orchestration de containers (faire du multi-hôte) via clusters, noeuds...
+
+NOSQL - Elasticsearch :
+    -> replica sont des sauvegardes des shards(fragments des index).
+    Si le node1 tombe, les données seront sur le node2.
+
+
+
+
+
+
 
 -Tp : Instancier une base de données existante dans un conteneur et interagir avec elle en python
 	STEPS :
@@ -13,3 +27,6 @@ https://github.com/H3Hitema/BDD_python
 		      -> docker run container_name
 		- set up app.python
 		- queries in container : docker exec -it container_name, show databases, create Database, write queries ...
+
+
+
